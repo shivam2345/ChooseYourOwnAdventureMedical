@@ -1,0 +1,88 @@
+body {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 75%;
+  background-color: #1271EB;
+  border: 4px double black;
+  font-family: "Helvatica", sans-serif;
+}
+.content {
+  background-color: white;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content {
+  background-color: white;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction {
+  background-color: white;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PlayButton button {
+  background-color: #14FFC4;
+  border: none;
+  color: black;
+  padding: 4%;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Helvatica", sans-serif;
+}
+
+#startgame:hover {
+  background-color: #143EFF;
+  color: white;
+}
+
+#ChoiceA button, #ChoiceB button, #ChoiceC button, #ChoiceD button, #tryAgain button,
+ #main button, #correct button{
+  background-color: #14FFC4;
+  border: none;
+  color: black;
+  display: block;
+  font-size: 14px;
+  padding: 1%;
+  font-family: "Helvatica", sans-serif;
+}
+
+#main button {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mainMenu:hover, #questions:hover {
+  background-color: #143EFF;
+  color: white;
+}
+
+#A:hover, #B:hover, #C:hover, #D:hover {
+  background-color: #143EFF;
+  color: white;
+}
+
+#startgame:hover {
+  background-color: #143EFF;
+  color: white;
+}
+
+h1 {
+  padding: 1%;
+  background-color: white;
+  color: #1271EB;
+  text-align: center;
+  margin: 0;
+  border-bottom: 4px double black
+}

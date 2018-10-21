@@ -3,15 +3,16 @@
 <head>
 	<title>Stroke Simulator</title>
 	<script type="text/javascript" src="./game.js"></script>
+  <link type= "text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id = "content">
+    <h2> Question 2: </h2>
+	You called 911 and an operator answers. <br />
 
-	You called 911 and an operator answers. 
+	Operator: "Hello. What is your emergency?" <br />
 
-	Operator: "Hello. What is your emergency?"
-
-	What should you tell them? 
+	What should you tell them?
 	<p id="ChoiceA">
 			<button id="A" onclick="question2(this.id)">Nothing, just cry. </button>
   	</p>
@@ -27,9 +28,10 @@
   	<p id="ChoiceD">
     <button id="D" onclick="question2(this.id)">"Just help me, please." </button>
 	</p>
+
+  <div id= "main">
+    <button id= "mainMenu" onclick="location.href='index.html'">Main Menu</button>
+  </div>
 </div>
-  	<div id= "main">
-      <button id= "mainMenu" onclick="location.href='index.html'">Main Menu</button>
-    </div>
 </body>
 </html>

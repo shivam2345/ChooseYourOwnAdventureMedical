@@ -56,5 +56,4 @@ function question5(clicked_id)
 function question6(clicked_id)
 {
      window.open("correctAnswer6.html", "_self");
-     
 }

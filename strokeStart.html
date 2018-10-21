@@ -3,16 +3,19 @@
 <head>
 	<title>Stroke Simulator</title>
   <script type="text/javascript" src="./game.js"></script>
+	<link type= "text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id = "content">
-  You spend a lot of time with your grandma because your parents work a lot. Although your grandma is still pretty active, she has a history of high blood pressure. She also loves to bake, so she doesn't eat very healthy and doesn't take the time to exercise, because she has a bad hip. 
+		<h2> Question 1: </h2>
+  You spend a lot of time with your grandma because your parents work a lot. Although your grandma is still pretty active, she has a history of high blood pressure. She also loves to bake, so she doesn't eat very healthy and doesn't take the time to exercise, because she has a bad hip.
 
-  One day, you are with your Grandma, eating lunch, but you notice that something about your Grandma seemed wrong. She was bringing you a glass of water, but she suddenly dropped it. 
+  One day, you are with your Grandma, eating lunch, but you notice that something about your Grandma seemed wrong. She was bringing you a glass of water, but she suddenly dropped it.
 
-  Then, she suddenly lost her balance and she had to grab the counter to catch herself from falling. She went to sit down next to you, and you try to make her laugh to cheer her up, but when she laughed, you notice that one side of her mouth drooped. 
-  
-  You are really worried about your Grandma, what should you do now? 
+  Then, she suddenly lost her balance and she had to grab the counter to catch herself from falling. She went to sit down next to you, and you try to make her laugh to cheer her up, but when she laughed, you notice that one side of her mouth drooped.
+  <br>
+  <br>
+  You are really worried about your Grandma, what should you do now?
   <p id="ChoiceA">
 			<button id="A" onclick="reply_click(this.id)">Call 911 </button>
   </p>
@@ -28,11 +31,14 @@
   <p id="ChoiceD">
     <button id="D" onclick="reply_click(this.id)">Hide </button>
 	</p>
+
+	<div id= "main">
+		<button id= "mainMenu" onclick="location.href='index.html'">Main Menu</button>
+	</div>
 </div>
 
-  <div id= "main">
-    <button id= "mainMenu" onclick="location.href='index.html'">Main Menu</button>
-  </div>
+
 
 </body>
+
 </html>
