@@ -50,10 +50,11 @@ function question5(clicked_id)
     }
     else {
       window.open("tryAgain.html", "_self");
-    }
+    }     
 }
 
 function question6(clicked_id)
 {
      window.open("correctAnswer6.html", "_self");
+     
 }
