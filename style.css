@@ -15,6 +15,13 @@ body {
   margin-right: auto;
 }
 
+#content {
+  background-color: white;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .introduction {
   background-color: white;
   padding: 2%;
@@ -41,13 +48,24 @@ body {
 }
 
 #ChoiceA button, #ChoiceB button, #ChoiceC button, #ChoiceD button, #tryAgain button,
-#mainMenu button  {
+ #main button, #correct button{
   background-color: #14FFC4;
   border: none;
   color: black;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
+  padding: 1%;
   font-family: "Helvatica", sans-serif;
+}
+
+#main button {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mainMenu:hover, #questions:hover {
+  background-color: #143EFF;
+  color: white;
 }
 
 #A:hover, #B:hover, #C:hover, #D:hover {

@@ -3,15 +3,17 @@
 <head>
 	<title>Choose Your Own Adventure</title>
 	<script type="text/javascript" src="./game.js"></script>
+	<link type= "text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id = "content">
+		<h2> Question 3: </h2>
 
-	You told the operator what happened, and that you need help. They continue to ask you more questions. 
+	You told the operator what happened, and that you need help. They continue to ask you more questions. <br />
 
-	Operator: "What's your adress?"
+	Operator: "What's your adress?" <br />
 
-	You don't know your address. What should you do?
+	You don't know your address. What should you do? <br />
 
 	<p id="ChoiceA">
 			<button id="A" onclick="question3(this.id)">Say, "I don't know. The house is yellow." </button>
@@ -28,10 +30,12 @@
   	<p id="ChoiceD">
     <button id="D" onclick="question3(this.id)">You hang up the phone because you don't know the address. </button>
 	</p>
+
+	<div id= "main">
+		<button id= "mainMenu" onclick="location.href='index.html'">Main Menu</button>
+	</div>
 </div>
 
-  	<div id= "Main Menu">
-    <button id= "Main Menu" onclick="location.href='index.html'">Main Menu</button>
-  	</div>
+
 </body>
 </html>
