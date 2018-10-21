@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Your Own Adventure</title>
+	<script type="text/javascript" src="./game.js"></script>
+</head>
+<body>
+  <div id = "content">
+
+	You told the operator what happened, and that you need help. They continue to ask you more questions. 
+
+	Operator: "What's your adress?"
+
+	You don't know your address. What should you do?
+
+	<p id="ChoiceA">
+			<button id="A" onclick="question3(this.id)">Say, "I don't know. The house is yellow." </button>
+  	</p>
+
+  	<p id="ChoiceB">
+    <button id="B" onclick="question3(this.id)">Say, "I don't know the address, but I know we live on Chesnut Street and that our house is yellow. But I can go outside to find out what the number on our house is." </button>
+	</p>
+
+  	<p id="ChoiceC">
+    <button id="C" onclick="question3(this.id)">Say, "I don't know. I don't know. I don't know."</button>
+	</p>
+
+  	<p id="ChoiceD">
+    <button id="D" onclick="question3(this.id)">You hang up the phone because you don't know the address. </button>
+	</p>
+</div>
+
+  	<div id= "Main Menu">
+    <button id= "Main Menu" onclick="location.href='index.html'">Main Menu</button>
+  	</div>
+</body>
+</html>

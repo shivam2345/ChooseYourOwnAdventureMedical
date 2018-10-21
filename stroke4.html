@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Your Own Adventure</title>
+	<script type="text/javascript" src="./game.js"></script>
+</head>
+<body>
+  <div id = "content">
+
+	You told the operator as much as you can about where you live. 
+
+Operator: "Okay honey, we're sending an ambulence to you, they should be there soon. Make sure you leave the door unlocked so they can get in. Is there anything else I should know?"
+
+You notice that your grandma's speech has slurred some more. What should you do? 
+
+
+	<p id="ChoiceA">
+			<button id="A" onclick="question4(this.id)">Do not tell the operator the new symptoms </button>
+  	</p>
+
+  	<p id="ChoiceB">
+    <button id="B" onclick="question4(this.id)">You hang up because the paramedics are on their way </button>
+	</p>
+
+  	<p id="ChoiceC">
+    <button id="C" onclick="question4(this.id)">Cry</button>
+	</p>
+
+  	<p id="ChoiceD">
+    <button id="D" onclick="question4(this.id)">Tell the operator about his grandma's new symptoms and wait for the ambulance </button>
+	</p>
+</div>
+  	<div id= "Main Menu">
+    <button id= "Main Menu" onclick="location.href='index.html'">Main Menu</button>
+  	</div>
+</body>
+</html>

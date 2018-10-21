@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Choose Your Own Adevnture</title>
+	<title>Choose Your Own Adventure</title>
+	<script type="text/javascript" src="./game.js"></script>
 </head>
 <body>
-	Question 2
+  <div id = "content">
+
+	You called 911 and an operator answers. 
+
+	Operator: "Hello. What is your emergency?"
+
+	What should you tell them? 
+	<p id="ChoiceA">
+			<button id="A" onclick="question2(this.id)">Nothing, just cry. </button>
+  	</p>
+
+  	<p id="ChoiceB">
+    <button id="B" onclick="question2(this.id)">"I think my grandma's in trouble. We need help." </button>
+	</p>
+
+  	<p id="ChoiceC">
+    <button id="C" onclick="question2(this.id)">"My grandma's face looked funny and she dropped a glass. I don't know what's wrong. We need help." </button>
+	</p>
+
+  	<p id="ChoiceD">
+    <button id="D" onclick="question2(this.id)">"Just help me, please." </button>
+	</p>
+</div>
+  	<div id= "Main Menu">
+    <button id= "Main Menu" onclick="location.href='index.html'">Main Menu</button>
+  	</div>
 </body>
 </html>
