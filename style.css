@@ -8,6 +8,19 @@ body {
   border: 4px double black;
   font-family: "Helvatica", sans-serif;
 }
+
+#image {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: block;
+}
+
+#image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .content {
   background-color: white;
   padding: 1%;
